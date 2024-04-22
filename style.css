@@ -95,8 +95,15 @@ button{
     margin: 0 auto;
 }
 #selected-date{
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+}
+#extra-info-container{
+    text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 #page-links{
     width: fit-content;
@@ -208,6 +215,10 @@ footer span{font-size: 1.2rem}
         height: 50vh;
         object-fit: cover;
         object-position: center;
+    }
+    #extra-info-container{
+        margin: 0 auto;
+        flex-direction: column;
     }
     .card{
         width: 43%;
